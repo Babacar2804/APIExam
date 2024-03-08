@@ -1,0 +1,48 @@
+.students-container {
+    margin-bottom: 20px;
+  }
+  
+  .student-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .student-info {
+    flex-grow: 1;
+  }
+  
+  .student-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .student-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .form-container input,
+  .form-container button {
+    margin-bottom: 10px;
+  }
+  
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
